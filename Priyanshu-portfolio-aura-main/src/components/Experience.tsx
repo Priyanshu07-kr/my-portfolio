@@ -48,21 +48,6 @@ const Experience = () => {
         "Assisted in improving data-driven decision-making processes"
       ],
       type: "past"
-    },
-    {
-      title: "Data Analyst Intern",
-      company: "Tiore Global Pvt. Ltd.",
-      period: "2026",
-      location: "India",
-      description: "Worked on data analysis and preprocessing using real-world datasets. Performed data cleaning and generated insights using analytical techniques. Assisted in improving data-driven decision-making processes.",
-      highlights: [
-        "Analyzing structured and unstructured datasets to derive actionable insights for business decisions",
-        "Implementing data cleaning and preprocessing pipelines using Python (Pandas, NumPy) and SQL",
-        "Designing dashboards and reports using Power BI / Excel to visualize KPIs and trends",
-        "Identifying patterns and optimizing processes through data-driven strategies",
-        "Collaborating with cross-functional teams to deliver insights aligned with business goals"
-      ],
-      type: "present"
     }
   ];
 
@@ -94,7 +79,6 @@ const Experience = () => {
                     <div className="flex items-center gap-3 mb-2">
                       <div className="p-2.5 bg-cyan-100 dark:bg-cyan-900/30 rounded-xl"><Briefcase className="text-cyan-600 dark:text-cyan-400" size={22} /></div>
                       <span className="px-3 py-1 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400">Completed</span>
-                      <span className="px-3 py-1 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400">ongoing</span>
                     </div>
                     <h3 className="text-2xl font-bold text-gray-800 dark:text-white mt-3">{exp.title}</h3>
                     <h4 className="text-lg font-semibold text-cyan-600 dark:text-cyan-400 mt-1">{exp.company}</h4>
