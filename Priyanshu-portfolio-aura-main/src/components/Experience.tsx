@@ -49,6 +49,21 @@ const Experience = () => {
       ],
       type: "past"
     }
+    {
+      title: "Data Analyst Intern",
+      company: "Tiore Global Pvt. Ltd.",
+      period: "2026",
+      location: "India",
+      description: "Worked on data analysis and preprocessing using real-world datasets. Performed data cleaning and generated insights using analytical techniques. Assisted in improving data-driven decision-making processes.",
+      highlights: [
+        "Analyzing structured and unstructured datasets to derive actionable insights for business decisions",
+        "Implementing data cleaning and preprocessing pipelines using Python (Pandas, NumPy) and SQL",
+        "Designing dashboards and reports using Power BI / Excel to visualize KPIs and trends",
+        "Identifying patterns and optimizing processes through data-driven strategies",
+        "Collaborating with cross-functional teams to deliver insights aligned with business goals"
+      ],
+      type: "present"
+    }
   ];
 
   return (
