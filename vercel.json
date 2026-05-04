@@ -1,5 +1,6 @@
 {
   "framework": "vite",
+  "rootDirectory": "Priyanshu-portfolio-aura-main",
   "rewrites": [
     {
       "source": "/(.*)",
