@@ -48,7 +48,7 @@ const Experience = () => {
         "Assisted in improving data-driven decision-making processes"
       ],
       type: "past"
-    }
+    },
     {
       title: "Data Analyst Intern",
       company: "Tiore Global Pvt. Ltd.",
