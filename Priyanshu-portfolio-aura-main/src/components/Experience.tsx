@@ -94,6 +94,7 @@ const Experience = () => {
                     <div className="flex items-center gap-3 mb-2">
                       <div className="p-2.5 bg-cyan-100 dark:bg-cyan-900/30 rounded-xl"><Briefcase className="text-cyan-600 dark:text-cyan-400" size={22} /></div>
                       <span className="px-3 py-1 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400">Completed</span>
+                      <span className="px-3 py-1 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400">ongoing</span>
                     </div>
                     <h3 className="text-2xl font-bold text-gray-800 dark:text-white mt-3">{exp.title}</h3>
                     <h4 className="text-lg font-semibold text-cyan-600 dark:text-cyan-400 mt-1">{exp.company}</h4>
