@@ -79,7 +79,7 @@ const About = () => {
                 {/* Profile Image */}
                 <div className="relative w-full aspect-[3/4] bg-gradient-to-br from-cyan-100 to-blue-50 dark:from-cyan-900/40 dark:to-blue-900/40 overflow-hidden">
                   <img 
-                    src="public\priyanshu.jpeg"  
+                    src="/priyanshu.jpeg"  
                     className="w-full h-full object-cover transform-gpu transition-transform duration-700 group-hover:scale-105"
                   />
                   {/* Overlay gradient */}
